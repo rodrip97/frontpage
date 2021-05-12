@@ -13,7 +13,7 @@ def about(request):
 
 
 def portfolio(request):
-    return render(request,'front/portfolio.html')
+    return render(request, 'front/portfolio.html')
 
 
 def contact(request):

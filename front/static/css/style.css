@@ -302,6 +302,10 @@ form button.btn-primary:hover {
 .title .title-blue {
   color: #26264b;
 }
+.title .title-blue{
+margin-top: 80px;
+
+}
 
 .title .title-primary {
   color: #ee1515;
@@ -356,6 +360,12 @@ form button.btn-primary:hover {
   position: relative;
   height: 530px;
   margin-top: 60px;
+}
+
+.feat-img{
+position: relative;
+height 530px;
+margin-top 80;
 }
 
 .featured-big {
@@ -738,6 +748,7 @@ footer {
   color: #aaa;
 }
 
+
 .single-widget .widget-tiltle {
   font-size: 17px;
   text-transform: uppercase;
@@ -830,30 +841,9 @@ span {
   margin-bottom: 10px;
 }
 
-.subscribe-widget input {
-  font-size: 14px;
-  padding: 0px 10px;
-  background-color: #444;
-  border: none;
-  line-height: 0;
-  position: relative;
-  z-index: 1;
-}
-
 .subscribe-widget input:focus {
   outline: none;
   box-shadow: none;
-}
-
-.subscribe-widget button {
-  background: #ee1515;
-  border: none;
-  padding: 9px 14px;
-  border-top-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  margin-left: -10px;
-  position: relative;
-  z-index: 5;
 }
 
 .subscribe-widget button i {
@@ -867,8 +857,10 @@ span {
 .subscribe-widget .social-nav a {
   display: inline-block;
   text-align: center;
-  width: 36px;
-  height: 36px;
+  width: 45px;
+  height: 45px;
+  margin-bottom 35px;
+  margin-right 25 px;
   line-height: 36px;
   background-color: #fff;
   color: #ddd;

@@ -56,11 +56,12 @@
                             aria-expanded="false" aria-label="Toggle navigation">
                         <a class="login-icon d-sm-none" href="#"><i class="fa fa-user"></i></a>
                 </div>
+                <img src="{% static 'images/logo.png' %}" alt="wqpiejqwpie">
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class="navbar-nav">
                         <li class="nav-item"><a class="nav-link" href="{% url 'index' %}">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="{% url 'about' %}">About Us</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{% url 'portfolio' %}">Portfolio</a></li>
                         <li class="nav-item"><a class="nav-link" href="{% url 'contact' %}">Contact Us</a></li>
                     </ul>
                 </div>
@@ -95,7 +96,7 @@
                             <div class="swiper-slide slide-content d-flex align-items-center">
                                 <div class="single-slide">
                                     <h2 data-aos="fade-right" data-aos-delay="200"></h2>
-                                    <p data-aos="fade-right" data-aos-delay="200"><img class="mr-4" src="{% static 'images/concrete.jgp' %}" alt="">
+                                    <p data-aos="fade-right" data-aos-delay="200"><img class="mr-4" src="{% static 'images/concrete.jpg' %}" alt="">
                                     </p>
                                 </div>
                             </div>
